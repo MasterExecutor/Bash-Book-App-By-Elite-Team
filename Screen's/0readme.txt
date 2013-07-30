@@ -1,0 +1,1 @@
+Tutaj wrzucamy screen z tego co już zrobiliśmy(nie wszyscy mają simulator iOS'a np. cry android). Proszę o nie przekraczanie 200kb - większe pliki będą usuwane. 

@@ -8,5 +8,8 @@ Aplication going to contain a few quizes, short theory presented easly to unders
 
 It's going to be developed on an iOS, android and thers also a web version. 
 
+
+Useful Informations
 ===========================
 Estimated relese date of version 1.0 is 1.10.2013r.
+Please don't upload attachment larger then 200kb!
