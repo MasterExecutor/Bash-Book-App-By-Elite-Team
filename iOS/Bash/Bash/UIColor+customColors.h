@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIColor+customColors.h
 //  Bash
 //
 //  Created by Konrad Gnoinski on 30.07.2013.
@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UIColor_customColors : UIColor
+
++ (UIColor*)TextColor;
++ (UIColor*)ZUTZielony;
++ (UIColor*)ZUTNiebieski;
 
 @end

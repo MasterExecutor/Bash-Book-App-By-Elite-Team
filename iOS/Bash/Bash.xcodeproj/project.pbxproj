@@ -17,7 +17,9 @@
 		C824DF4517A7F57B003D95F8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C824DF4417A7F57B003D95F8 /* Default@2x.png */; };
 		C824DF4717A7F57B003D95F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C824DF4617A7F57B003D95F8 /* Default-568h@2x.png */; };
 		C824DF4A17A7F57B003D95F8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C824DF4817A7F57B003D95F8 /* MainStoryboard.storyboard */; };
-		C824DF4D17A7F57B003D95F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C824DF4C17A7F57B003D95F8 /* ViewController.m */; };
+		C824DF4D17A7F57B003D95F8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C824DF4C17A7F57B003D95F8 /* LoginViewController.m */; };
+		C824DF5817A7FB24003D95F8 /* FlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C824DF5717A7FB24003D95F8 /* FlatButton.m */; };
+		C824DF5E17A7FC58003D95F8 /* UIColor+customColors.m in Sources */ = {isa = PBXBuildFile; fileRef = C824DF5D17A7FC58003D95F8 /* UIColor+customColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +37,12 @@
 		C824DF4417A7F57B003D95F8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C824DF4617A7F57B003D95F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C824DF4917A7F57B003D95F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C824DF4B17A7F57B003D95F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C824DF4C17A7F57B003D95F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C824DF4B17A7F57B003D95F8 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C824DF4C17A7F57B003D95F8 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C824DF5617A7FB24003D95F8 /* FlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatButton.h; sourceTree = "<group>"; };
+		C824DF5717A7FB24003D95F8 /* FlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatButton.m; sourceTree = "<group>"; };
+		C824DF5C17A7FC58003D95F8 /* UIColor+customColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+customColors.h"; sourceTree = "<group>"; };
+		C824DF5D17A7FC58003D95F8 /* UIColor+customColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+customColors.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +92,8 @@
 				C824DF3F17A7F57B003D95F8 /* AppDelegate.h */,
 				C824DF4017A7F57B003D95F8 /* AppDelegate.m */,
 				C824DF4817A7F57B003D95F8 /* MainStoryboard.storyboard */,
-				C824DF4B17A7F57B003D95F8 /* ViewController.h */,
-				C824DF4C17A7F57B003D95F8 /* ViewController.m */,
+				C824DF4B17A7F57B003D95F8 /* LoginViewController.h */,
+				C824DF4C17A7F57B003D95F8 /* LoginViewController.m */,
 				C824DF3717A7F57B003D95F8 /* Supporting Files */,
 			);
 			path = Bash;
@@ -96,6 +102,10 @@
 		C824DF3717A7F57B003D95F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C824DF5C17A7FC58003D95F8 /* UIColor+customColors.h */,
+				C824DF5D17A7FC58003D95F8 /* UIColor+customColors.m */,
+				C824DF5617A7FB24003D95F8 /* FlatButton.h */,
+				C824DF5717A7FB24003D95F8 /* FlatButton.m */,
 				C824DF3817A7F57B003D95F8 /* Bash-Info.plist */,
 				C824DF3917A7F57B003D95F8 /* InfoPlist.strings */,
 				C824DF3C17A7F57B003D95F8 /* main.m */,
@@ -175,7 +185,9 @@
 			files = (
 				C824DF3D17A7F57B003D95F8 /* main.m in Sources */,
 				C824DF4117A7F57B003D95F8 /* AppDelegate.m in Sources */,
-				C824DF4D17A7F57B003D95F8 /* ViewController.m in Sources */,
+				C824DF4D17A7F57B003D95F8 /* LoginViewController.m in Sources */,
+				C824DF5817A7FB24003D95F8 /* FlatButton.m in Sources */,
+				C824DF5E17A7FC58003D95F8 /* UIColor+customColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
